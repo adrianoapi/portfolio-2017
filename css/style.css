@@ -39,6 +39,17 @@ body a:focus {
 	text-decoration:none;
 }
 /*-- banner --*/ 
+.profile-agileinfo p{
+	color: #ffffff;
+	font-size: 16px;
+	background-color: #000;
+	opacity: 0.65;
+    filter: alpha(opacity=65); /* For IE8 and earlier */
+}
+.profile-agileinfo p{
+	padding: 15px;
+	color: #fff;
+}
 .w3ls-banner{ 
 	background:url(../images/1.jpg)no-repeat center 0px;
 	-webkit-background-size:cover;
