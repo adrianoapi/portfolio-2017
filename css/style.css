@@ -329,14 +329,14 @@ body .buttons-wrapper input.w3slider-input:nth-child(4):checked ~ .slider > li:n
 	z-index: 99; 
 } 
 body .buttons-wrapper input.w3slider-input:checked ~ label {
-	width: 60px;
-	height: 60px;
+	width: 70px;
+	height: 70px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%; 
 	border-radius: 50%;
 	color: #fff;
 	background: transparent;
-	border: 1px solid #fff;
+	border: 8px solid #fff;
 	text-align: center;
 	line-height: 54px;
 	font-size: 24px;
@@ -357,10 +357,10 @@ body .buttons-wrapper input.w3slider-input:checked ~ label {
 	-moz-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
-	-webkit-animation: anim 5s infinite;
-	-moz-animation: anim 5s infinite;
-	-o-animation: anim 5s infinite;
-	animation: anim 5s infinite; 
+	-webkit-animation: anim 3s infinite;
+	-moz-animation: anim 3s infinite;
+	-o-animation: anim 3s infinite;
+	animation: anim 3s infinite; 
 	display: none; 
 }
 body .buttons-wrapper input.w3slider-input:nth-child(1):checked ~ label:nth-of-type(2) {
@@ -368,6 +368,7 @@ body .buttons-wrapper input.w3slider-input:nth-child(1):checked ~ label:nth-of-t
 }
 body .buttons-wrapper input.w3slider-input:nth-child(1):checked ~ label:nth-of-type(2):after {
 	content: '↓'; 
+        color: #00ffff; 
 }
 body .buttons-wrapper input.w3slider-input:nth-child(1):checked ~ label:nth-of-type(2):hover {
 	-webkit-transform: translate(-50%, 0) scale(1);
@@ -375,7 +376,7 @@ body .buttons-wrapper input.w3slider-input:nth-child(1):checked ~ label:nth-of-t
 	-ms-transform: translate(-50%, 0) scale(1);
 	-o-transform: translate(-50%, 0) scale(1);
 	transform: translate(-50%, 0) scale(1);
-	font-size: 44px;
+	font-size: 54px;
 	line-height: 100px;
 	-webkit-animation: none;
 	-moz-animation: none;
@@ -383,7 +384,7 @@ body .buttons-wrapper input.w3slider-input:nth-child(1):checked ~ label:nth-of-t
 	animation: none; 
 }
 body .buttons-wrapper input.w3slider-input:nth-child(2):checked ~ label {
-	display: none; 
+	display: none;
 }
 body .buttons-wrapper input.w3slider-input:nth-child(2):checked ~ label:nth-of-type(3) {
 	display: block;  
@@ -395,6 +396,7 @@ body .buttons-wrapper input.w3slider-input:nth-child(2):checked ~ label:nth-of-t
 }
 body .buttons-wrapper input.w3slider-input:nth-child(2):checked ~ label:nth-of-type(3):after {
 	content: '↓'; 
+        color: #00ffff; 
 }
 body .buttons-wrapper input.w3slider-input:nth-child(2):checked ~ label:nth-of-type(3):hover {
 	-webkit-transform: translate(-50%, 0) scale(1);
@@ -402,7 +404,7 @@ body .buttons-wrapper input.w3slider-input:nth-child(2):checked ~ label:nth-of-t
 	-ms-transform: translate(-50%, 0) scale(1);
 	-o-transform: translate(-50%, 0) scale(1);
 	transform: translate(-50%, 0) scale(1);
-	font-size: 44px;
+	font-size: 54px;
 	line-height: 100px;
 	-webkit-animation: none;
 	-moz-animation: none;
@@ -419,6 +421,7 @@ body .buttons-wrapper input.w3slider-input:nth-child(2):checked ~ label:nth-of-t
 }
 body .buttons-wrapper input.w3slider-input:nth-child(2):checked ~ label:nth-of-type(1):after {
 	content: '↑'; 
+        color: #00ffff; 
 }
 body .buttons-wrapper input.w3slider-input:nth-child(2):checked ~ label:nth-of-type(1):hover {
 	-webkit-transform: translate(-50%, 0) scale(1);
@@ -426,7 +429,7 @@ body .buttons-wrapper input.w3slider-input:nth-child(2):checked ~ label:nth-of-t
 	-ms-transform: translate(-50%, 0) scale(1);
 	-o-transform: translate(-50%, 0) scale(1);
 	transform: translate(-50%, 0) scale(1);
-	font-size: 44px;
+	font-size: 54px;
 	line-height: 1px; 
 }
 body .buttons-wrapper input.w3slider-input:nth-child(2):checked ~ label:nth-of-type(1):hover:after {
@@ -446,6 +449,7 @@ body .buttons-wrapper input.w3slider-input:nth-child(3):checked ~ label:nth-of-t
 }
 body .buttons-wrapper input.w3slider-input:nth-child(3):checked ~ label:nth-of-type(4):after {
 	content: '↓'; 
+        color: #00ffff; 
 }
 body .buttons-wrapper input.w3slider-input:nth-child(3):checked ~ label:nth-of-type(4):hover {
 	-webkit-transform: translate(-50%, 0) scale(1);
@@ -453,7 +457,7 @@ body .buttons-wrapper input.w3slider-input:nth-child(3):checked ~ label:nth-of-t
 	-ms-transform: translate(-50%, 0) scale(1);
 	-o-transform: translate(-50%, 0) scale(1);
 	transform: translate(-50%, 0) scale(1);
-	font-size: 44px;
+	font-size: 54px;
 	line-height: 100px;
 	-webkit-animation: none;
 	-moz-animation: none;
@@ -470,6 +474,7 @@ body .buttons-wrapper input.w3slider-input:nth-child(3):checked ~ label:nth-of-t
 }
 body .buttons-wrapper input.w3slider-input:nth-child(3):checked ~ label:nth-of-type(2):after {
 	content: '↑'; 
+        color: #00ffff; 
 }
 body .buttons-wrapper input.w3slider-input:nth-child(3):checked ~ label:nth-of-type(2):hover {
 	-webkit-transform: translate(-50%, 0) scale(1);
@@ -477,7 +482,7 @@ body .buttons-wrapper input.w3slider-input:nth-child(3):checked ~ label:nth-of-t
 	-ms-transform: translate(-50%, 0) scale(1);
 	-o-transform: translate(-50%, 0) scale(1);
 	transform: translate(-50%, 0) scale(1);
-	font-size: 44px;
+	font-size: 54px;
 	line-height: 1px; 
 }
 body .buttons-wrapper input.w3slider-input:nth-child(3):checked ~ label:nth-of-type(2):hover:after {
@@ -497,6 +502,7 @@ body .buttons-wrapper input.w3slider-input:nth-child(4):checked ~ label:nth-of-t
 }
 body .buttons-wrapper input.w3slider-input:nth-child(4):checked ~ label:nth-of-type(3):after {
 	content: '↑'; 
+        color: #00ffff; 
 }
 body .buttons-wrapper input.w3slider-input:nth-child(4):checked ~ label:nth-of-type(3):hover {
 	-webkit-transform: translate(-50%, 0) scale(1);
@@ -504,7 +510,7 @@ body .buttons-wrapper input.w3slider-input:nth-child(4):checked ~ label:nth-of-t
 	-ms-transform: translate(-50%, 0) scale(1);
 	-o-transform: translate(-50%, 0) scale(1);
 	transform: translate(-50%, 0) scale(1);
-	font-size: 44px;
+	font-size: 54px;
 	line-height: 1px; 
 }
 body .buttons-wrapper input.w3slider-input:nth-child(4):checked ~ label:nth-of-type(3):hover:after {
